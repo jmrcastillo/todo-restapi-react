@@ -18,6 +18,7 @@ class App extends React.Component {
             editing: false,
         }
         // bind
+        // return instance of function to point in object
         this.fetchTasks = this.fetchTasks.bind(this)
         this.handleChange = this.handleChange.bind(this)
         this.handleSubmit = this.handleSubmit.bind(this)
